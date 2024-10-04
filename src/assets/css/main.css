@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --primarycolor: #1348b2;
+  --btn-color:  rgb(13, 159, 207);
+  --secondarycolor: #f2f2f2;
+  --gray: #c7c5c5;
+}
+html{
+  scroll-behavior: smooth;
+}
+.updateProfile  , .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/15528.jpg");
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  
+}
